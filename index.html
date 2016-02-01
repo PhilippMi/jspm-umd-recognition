@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="/jspm_packages/system-csp-production.js"></script>
+	<script src="/config.js"></script>
+	<script>
+		System.import("moment").then(function(moment) {
+			document.body.innerHTML = moment().format('MMMM Do YYYY, h:mm:ss a');
+		});
+	</script>
+</head>
+<body>
+</body>
+</html>
